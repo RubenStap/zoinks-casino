@@ -1,0 +1,48 @@
+main {
+    height: 70vh;
+}
+section {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-height: 450px;
+}
+
+section {
+    color: black;
+}
+
+
+.game-picture img {
+    width: 220px;
+}
+
+.game-info {
+    margin-top: 2.5px;
+        padding: 5px;
+    text-align:center;
+}
+
+span {
+    font-size:35px;
+    border-bottom:3px solid;
+    margin-right:5px;
+}
+
+
+.gekozen_letters {
+    font-size:35px; 
+    border-bottom:3px solid; 
+    margin-right:5px;
+}
+@media only screen and (max-width:625px) {
+    main {
+        height: 100vh;
+    }
+
+    section {
+        max-height: 500px;
+    }
+}
